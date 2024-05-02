@@ -1,0 +1,15 @@
+.buttons-btn-color-1:hover {
+  background-color: #0e5ad3;
+}
+.buttons-btn-color-2:hover {
+  background-color: #c76c05;
+}
+.buttons-btn-color-3:hover {
+  background-color: #439946;
+}
+
+.buttons-btn-color-1,
+.buttons-btn-color-2,
+.buttons-btn-color-3 {
+  transition: all linear 0.2s;
+}

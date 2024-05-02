@@ -1,0 +1,66 @@
+@import "Partials/reset";
+@import "Partials/variables";
+@import "Partials/mixins";
+@import "Partials/font";
+@import "Partials/colors";
+@import "Partials/spacing";
+@import "Partials/buttons";
+@import "Partials/animations";
+
+nav {
+  @include flex-basic;
+  align-items: center;
+  div img {
+    width: 35%;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    margin: 1em;
+    font-size: $basic-font-size;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#headline {
+  @include flex-basic;
+  align-items: center;
+  background-color: rgb(22, 21, 21);
+  color: $text-color;
+  h1 {
+    font-size: $title-font-size;
+    padding: 1em;
+  }
+  .buttons-btn-color-1,
+  .buttons-btn-color-2,
+  .buttons-btn-color-3 {
+    @include genericButton;
+  }
+}
+
+#hero {
+  @include flex-basic;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bg-hero;
+  color: white;
+  h2 {
+    font-size: $title2-font-size;
+  }
+  div {
+    font-size: $basic2-font-size;
+    @include flex-basic;
+    flex-wrap: nowrap;
+    width: 80%;
+    gap: 2em;
+  }
+}
+
+main section:nth-last-of-type(1) {
+  @include flex-basic;
+  justify-content: space-around;
+}

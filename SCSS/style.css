@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+20&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.space-padding-normal {
+  padding: 1em;
+}
+
+.space-margin-normal {
+  margin: 1em;
+}
+
+.buttons-btn-color-1 {
+  background-color: #0e6cff;
+}
+
+.buttons-btn-color-2 {
+  background-color: #ff8700;
+}
+
+.buttons-btn-color-3 {
+  background-color: #4caf50;
+}
+
+.buttons-btn-color-1:hover {
+  background-color: #0e5ad3;
+}
+
+.buttons-btn-color-2:hover {
+  background-color: #c76c05;
+}
+
+.buttons-btn-color-3:hover {
+  background-color: #439946;
+}
+
+.buttons-btn-color-1,
+.buttons-btn-color-2,
+.buttons-btn-color-3 {
+  transition: all linear 0.2s;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav div img {
+  width: 35%;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin: 1em;
+  font-size: 1.2em;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#headline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(22, 21, 21);
+  color: #f4f4f4;
+}
+#headline h1 {
+  font-size: 2.4em;
+  padding: 1em;
+}
+#headline .buttons-btn-color-1,
+#headline .buttons-btn-color-2,
+#headline .buttons-btn-color-3 {
+  padding: 1em;
+  margin: 1em;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: #640fc5;
+  color: white;
+}
+#hero h2 {
+  font-size: 2em;
+}
+#hero div {
+  font-size: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  width: 80%;
+  gap: 2em;
+}
+
+main section:nth-last-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */

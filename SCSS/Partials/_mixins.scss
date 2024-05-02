@@ -1,0 +1,20 @@
+@mixin title-big {
+  font-size: $title-font-size;
+  font-weight: 600;
+}
+
+@mixin genericButton {
+  padding: 1em;
+  margin: 1em;
+  border: none {
+    radius: 15px;
+  }
+  font-size: $basic-font-size;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@mixin flex-basic {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+@each $space, $value in $padding-map {
+  .space-#{$space} {
+    padding: #{$value};
+  }
+}
+
+@each $space, $value in $margin-map {
+  .space-#{$space} {
+    margin: #{$value};
+  }
+}
